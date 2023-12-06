@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝙎𝙩𝙞𝙘𝙠𝙮'𝙨 𝙒𝙚𝙗</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="Sticky.png" type="image/x-icon">
-
+    <title>𝙎𝙩𝙞𝙘𝙠𝙮'𝙨 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
@@ -60,29 +56,30 @@
             max-width: 72vw;
             margin-top: 10vh;
             margin-bottom: 30px;
-            background: rgba(0, 0, 0, 0.56);
+            background: rgb();
             padding: 50px;
             border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 0 20px rgba(255, 255, 255, 0.3);
             backdrop-filter: blur(11.6px);
             -webkit-backdrop-filter: blur(11.6px);
         }
 
         .logo {
-            display: inline-block;
-            font-size: 30px;
-            font-weight: 600;
-            margin-top: -10px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
         }
 
-        ul.nav-links {
+        .nav-links {
             margin: 0;
             float: right;
             display: flex;
             list-style: none;
+            align-items: center; /* Align items vertically in the flex container */
         }
 
-        li.nav-link {
+        .nav-link {
             display: inline-block;
             margin-left: 30px;
             font-size: 17px;
@@ -98,17 +95,15 @@
             margin-top: 10vh;
             display: inline-block;
             padding: 20px;
-            text-align: left;
         }
 
-        .main h1 {
+        .main h2 {
             font-size: 35px;
         }
 
-        .main h3 {
+        .main p {
             font-size: 16px;
             line-height: 23px;
-            margin: 0;
         }
 
         button {
@@ -145,6 +140,9 @@
             right: 0;
             font-size: 12px;
         }
+            body, .logo, li.nav-link a, .main h2, .main p, button, .attrebute {
+    text-shadow: 0 0 10px rgba(207, 198, 198, 0.5)
+        }
 
         @media screen and (max-width: 1075px) {
             .content {
@@ -161,11 +159,11 @@
                 font-size: 13px;
             }
 
-            .main h1 {
+            .main h2 {
                 font-size: 28px;
             }
 
-            .main h3 {
+            .main p {
                 font-size: 15px;
             }
 
@@ -193,22 +191,42 @@
     <div class="container">
         <div class="glass-container">
             <nav class="navbar">
-                <div class="logo"><a href="#">𝙎𝙩𝙞𝙘𝙠𝙮'𝙨 𝘾𝙤𝙙𝙞𝙣𝙜 𝙃𝙪𝙗</a></div>
+                <div class="logo"><a href="#">𝙎𝙩𝙞𝙘𝙠𝙮'𝙨 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩</a></div>
                 <ul class="nav-links">
                     <li class="nav-link"><a href="index.html">𝙃𝙤𝙢𝙚</a></li>
-                    <li class="nav-link"><a href="about.html">𝙡𝙚𝙖𝙧𝙣</a></li>
-                    <li class="nav-link"><a href="https://discord.gg/Yy8TxkMHjJ">𝘿𝙞𝙨𝙘𝙤𝙧𝙙</a></li>
+                    <li class="nav-link"><a href="about.html">𝘼𝙗𝙤𝙪𝙩</a></li>
+                    <li class="nav-link"><a href="https://discord.gg/mJ2uWUE9SQ">𝘿𝙞𝙨𝙘𝙤𝙧𝙙</a></li>
                 </ul>
             </nav>
             <div class="content">
                 <div class="main">
-                    <h1>𝘼𝙗𝙤𝙪𝙩</h1>
-                    <h3>⚪𝙃𝙤𝙬 𝙩𝙤 𝙡𝙚𝙖𝙧𝙣 𝙬𝙚𝙗 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩.</h3>
-                    <h3>⚪𝙃𝙤𝙬 𝙘𝙖𝙣 𝙄 𝙢𝙖𝙠𝙚 𝙬𝙚𝙗𝙨𝙞𝙩𝙚</h3>
-                    <h3>⚪𝙄𝙨 𝙞𝙩 𝙀𝙖𝙨𝙮 𝙩𝙤 𝙇𝙚𝙖𝙧𝙣 𝙬𝙚𝙗 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩?</h3>
-                    <h3>-----------------------------------------------------------------------------</h3>
-                    <h3>𝘼𝙡𝙡 𝙩𝙝𝙚𝙨𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙖𝙣𝙙 𝙢𝙖𝙣𝙮 𝙢𝙤𝙧𝙚 𝙖𝙧𝙚 𝙖𝙡𝙡 𝙖𝙣𝙨𝙬𝙚𝙧𝙚𝙙 𝙞𝙣 𝙢𝙮 𝘿𝙞𝙨𝙘𝙤𝙧𝙙. 𝙏𝙤 𝙟𝙤𝙞𝙣 𝙨𝙞𝙢𝙥𝙡𝙮 𝙘𝙡𝙞𝙘𝙠 𝙩𝙝𝙚 𝘿𝙞𝙨𝙘𝙤𝙧𝙙 𝙏𝙖𝙗 𝙞𝙣 𝙩𝙝𝙚 𝙏𝙤𝙥 𝙧𝙞𝙜𝙝𝙩</h3>
-                    <h3>-----------------------------------------------------------------------------</h3>
+                    <h1>𝘼𝙗𝙤𝙪𝙩 𝙎𝙩𝙞𝙘𝙠𝙮'𝙨 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩</h2>
+                </div>
+                    <h3>𝙒𝙝𝙤 𝙬𝙚 𝙖𝙧𝙚.</h3>
+                    <p>𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘚𝘵𝘪𝘤𝘬𝘺'𝘴 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵! 𝘞𝘦'𝘳𝘦 𝘢 𝘤𝘰𝘮𝘮𝘶𝘯𝘪𝘵𝘺-𝘥𝘳𝘪𝘷𝘦𝘯 𝘴𝘱𝘢𝘤𝘦 𝘥𝘦𝘥𝘪𝘤𝘢𝘵𝘦𝘥 𝘵𝘰 𝘮𝘢𝘬𝘪𝘯𝘨 𝘴𝘰𝘧𝘵𝘸𝘢𝘳𝘦 𝘦𝘯𝘨𝘪𝘯𝘦𝘦𝘳𝘪𝘯𝘨 𝘬𝘯𝘰𝘸𝘭𝘦𝘥𝘨𝘦 𝘢𝘤𝘤𝘦𝘴𝘴𝘪𝘣𝘭𝘦 𝘢𝘯𝘥 𝘦𝘯𝘫𝘰𝘺𝘢𝘣𝘭𝘦.</p>
+                    <p>ㅤ</p>
+                    <h3>𝙊𝙪𝙧 𝙈𝙞𝙨𝙨𝙞𝙤𝙣</h3>
+                    <p>𝘖𝘶𝘳 𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘢𝘵 𝘚𝘵𝘪𝘤𝘬𝘺'𝘴 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘪𝘴 𝘵𝘰 𝘥𝘦𝘮𝘺𝘴𝘵𝘪𝘧𝘺 𝘴𝘰𝘧𝘵𝘸𝘢𝘳𝘦 𝘦𝘯𝘨𝘪𝘯𝘦𝘦𝘳𝘪𝘯𝘨 𝘢𝘯𝘥 𝘦𝘮𝘱𝘰𝘸𝘦𝘳 𝘭𝘦𝘢𝘳𝘯𝘦𝘳𝘴 𝘰𝘧 𝘢𝘭𝘭 𝘭𝘦𝘷𝘦𝘭𝘴. 𝘞𝘦 𝘣𝘦𝘭𝘪𝘦𝘷𝘦 𝘵𝘩𝘢𝘵 𝘦𝘷𝘦𝘳𝘺𝘰𝘯𝘦 𝘴𝘩𝘰𝘶𝘭𝘥 𝘩𝘢𝘷𝘦 𝘵𝘩𝘦 𝘰𝘱𝘱𝘰𝘳𝘵𝘶𝘯𝘪𝘵𝘺 𝘵𝘰 𝘦𝘹𝘱𝘭𝘰𝘳𝘦 𝘢𝘯𝘥 𝘶𝘯𝘥𝘦𝘳𝘴𝘵𝘢𝘯𝘥 𝘵𝘩𝘦 𝘧𝘢𝘴𝘤𝘪𝘯𝘢𝘵𝘪𝘯𝘨 𝘸𝘰𝘳𝘭𝘥 𝘰𝘧 𝘤𝘰𝘥𝘪𝘯𝘨.</p>
+                    <p>ㅤ</p>
+                    <h3>𝙒𝙝𝙖𝙩 𝙒𝙚 𝙊𝙛𝙛𝙚𝙧</h3>
+                    <p>ㅤ</p>
+                    <h4>𝙇𝙚𝙖𝙧𝙣𝙞𝙣𝙜 𝙃𝙪𝙗</h4>
+                    <p>𝘌𝘹𝘱𝘭𝘰𝘳𝘦 𝘰𝘶𝘳 𝘭𝘦𝘢𝘳𝘯𝘪𝘯𝘨 𝘩𝘶𝘣 𝘸𝘩𝘦𝘳𝘦 𝘺𝘰𝘶 𝘤𝘢𝘯 𝘧𝘪𝘯𝘥 𝘦𝘢𝘴𝘺-𝘵𝘰-𝘧𝘰𝘭𝘭𝘰𝘸 𝘵𝘶𝘵𝘰𝘳𝘪𝘢𝘭𝘴, 𝘢𝘳𝘵𝘪𝘤𝘭𝘦𝘴, 𝘢𝘯𝘥 𝘳𝘦𝘴𝘰𝘶𝘳𝘤𝘦𝘴 𝘤𝘰𝘷𝘦𝘳𝘪𝘯𝘨 𝘢 𝘸𝘪𝘥𝘦 𝘳𝘢𝘯𝘨𝘦 𝘰𝘧 𝘴𝘰𝘧𝘵𝘸𝘢𝘳𝘦 𝘦𝘯𝘨𝘪𝘯𝘦𝘦𝘳𝘪𝘯𝘨 𝘵𝘰𝘱𝘪𝘤𝘴. 𝘞𝘩𝘦𝘵𝘩𝘦𝘳 𝘺𝘰𝘶'𝘳𝘦 𝘢 𝘣𝘦𝘨𝘪𝘯𝘯𝘦𝘳 𝘰𝘳 𝘭𝘰𝘰𝘬𝘪𝘯𝘨 𝘵𝘰 𝘦𝘹𝘱𝘢𝘯𝘥 𝘺𝘰𝘶𝘳 𝘴𝘬𝘪𝘭𝘭𝘴, 𝘸𝘦'𝘷𝘦 𝘨𝘰𝘵 𝘺𝘰𝘶 𝘤𝘰𝘷𝘦𝘳𝘦𝘥.</p>
+                    <p>ㅤ</p>
+                    <h3>𝘿𝙞𝙨𝙘𝙤𝙧𝙙 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮</h3>
+                    <p>𝘑𝘰𝘪𝘯 𝘰𝘶𝘳 𝘷𝘪𝘣𝘳𝘢𝘯𝘵 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 𝘤𝘰𝘮𝘮𝘶𝘯𝘪𝘵𝘺 𝘵𝘰 𝘤𝘰𝘯𝘯𝘦𝘤𝘵 𝘸𝘪𝘵𝘩 𝘧𝘦𝘭𝘭𝘰𝘸 𝘭𝘦𝘢𝘳𝘯𝘦𝘳𝘴, 𝘢𝘴𝘬 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴, 𝘢𝘯𝘥 𝘴𝘩𝘢𝘳𝘦 𝘺𝘰𝘶𝘳 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦𝘴. 𝘐𝘵'𝘴 𝘢 𝘧𝘳𝘪𝘦𝘯𝘥𝘭𝘺 𝘴𝘱𝘢𝘤𝘦 𝘸𝘩𝘦𝘳𝘦 𝘦𝘷𝘦𝘳𝘺𝘰𝘯𝘦 𝘪𝘴 𝘦𝘯𝘤𝘰𝘶𝘳𝘢𝘨𝘦𝘥 𝘵𝘰 𝘭𝘦𝘢𝘳𝘯 𝘢𝘯𝘥 𝘨𝘳𝘰𝘸 𝘵𝘰𝘨𝘦𝘵𝘩𝘦𝘳.</p>
+                    <p>ㅤ</p>
+                    <h3>𝙀𝙫𝙚𝙣𝙩𝙨</h3>
+                    <p>𝘌𝘷𝘦𝘳𝘺 𝘰𝘯𝘤𝘦 𝘪𝘯 𝘢 𝘸𝘩𝘪𝘭𝘦 𝘸𝘦 𝘸𝘪𝘭𝘭 𝘩𝘢𝘷𝘦 𝘦𝘷𝘦𝘯𝘵𝘴 𝘸𝘩𝘦𝘳𝘦 𝘱𝘦𝘰𝘱𝘭𝘦 𝘤𝘢𝘯 𝘤𝘰𝘮𝘱𝘦𝘵𝘦 𝘧𝘰𝘳 𝘱𝘳𝘪𝘻𝘦𝘴 𝘭𝘪𝘬𝘦 𝘥𝘪𝘴𝘤𝘰𝘳𝘥 𝘕𝘪𝘵𝘳𝘰.</p>
+                    <p>ㅤ</p>
+                    <h3>𝙂𝙚𝙩 𝙎𝙩𝙖𝙧𝙩𝙚𝙙</h3>
+                    <p>𝘙𝘦𝘢𝘥𝘺 𝘵𝘰 𝘦𝘮𝘣𝘢𝘳𝘬 𝘰𝘯 𝘺𝘰𝘶𝘳 𝘴𝘰𝘧𝘵𝘸𝘢𝘳𝘦 𝘦𝘯𝘨𝘪𝘯𝘦𝘦𝘳𝘪𝘯𝘨 𝘫𝘰𝘶𝘳𝘯𝘦𝘺? 𝘋𝘪𝘷𝘦 𝘪𝘯𝘵𝘰 𝘰𝘶𝘳 𝘭𝘦𝘢𝘳𝘯𝘪𝘯𝘨 𝘳𝘦𝘴𝘰𝘶𝘳𝘤𝘦𝘴, 𝘫𝘰𝘪𝘯 𝘰𝘶𝘳 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 𝘤𝘰𝘮𝘮𝘶𝘯𝘪𝘵𝘺, 𝘢𝘯𝘥 𝘴𝘵𝘢𝘺 𝘵𝘶𝘯𝘦𝘥 𝘧𝘰𝘳 𝘶𝘱𝘤𝘰𝘮𝘪𝘯𝘨 𝘦𝘷𝘦𝘯𝘵𝘴. </p>
+                    <p>ㅤ</p>
+                    <h3><a href="https://discord.gg/tRUpwfq4mV">𝙀𝙭𝙥𝙡𝙤𝙧𝙚 𝙇𝙚𝙖𝙧𝙣𝙞𝙣𝙜 𝙍𝙚𝙨𝙤𝙪𝙧𝙘𝙚𝙨 | 𝙅𝙤𝙞𝙣 𝘿𝙞𝙨𝙘𝙤𝙧𝙙 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮 </a></h3>
+                    <p>ㅤ</p>
+                    <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ↑↑↑</p>
+                    <p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ𝙘𝙡𝙞𝙘𝙠 𝙩𝙤 𝙟𝙤𝙞𝙣 𝙙𝙞𝙨𝙘𝙤𝙧𝙙</p>
+                    <!-- Your content goes here -->
                 </div>
             </div>
         </div>
